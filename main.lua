@@ -14,4 +14,4 @@ function replaceAdrParamsInString(str, patternToReplace, p0, p1, p2, p3)
   return str
 end 
 
-print(replaceAdrParamsInString("0x02 mip1 mip0 mip2", "mip", 3, 2, 0, 0))
+print(replaceAdrParamsInString("mip3 mip1 mip0 mip2", "mip", 3, 2, 0, 0))
